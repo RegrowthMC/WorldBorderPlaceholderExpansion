@@ -1,9 +1,9 @@
-package org.lushplugins.projectname;
+package org.lushplugins.worldborderplaceholderexpansion;
 
 import org.bukkit.plugin.java.JavaPlugin;
 
-public final class ProjectName extends JavaPlugin {
-    private static ProjectName plugin;
+public final class WorldBorderPlaceholderExpansion extends JavaPlugin {
+    private static WorldBorderPlaceholderExpansion plugin;
 
     @Override
     public void onLoad() {
@@ -20,7 +20,7 @@ public final class ProjectName extends JavaPlugin {
         // Disable implementation
     }
 
-    public static ProjectName getInstance() {
+    public static WorldBorderPlaceholderExpansion getInstance() {
         return plugin;
     }
 }
