@@ -1,5 +1,0 @@
-name: WorldBorderPlaceholderExpansion
-version: ${project.version}
-main: org.lushplugins.worldborderplaceholderexpansion.WorldBorderPlaceholderExpansion
-api-version: '1.21'
-github-repo: RegrowthMC/WorldBorderPlaceholderExpansion

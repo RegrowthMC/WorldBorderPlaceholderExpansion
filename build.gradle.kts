@@ -13,15 +13,13 @@ repositories {
     mavenCentral()
     maven("https://oss.sonatype.org/content/groups/public/")
     maven("https://repo.papermc.io/repository/maven-public/") // Paper
+    maven("https://repo.helpch.at/releases") // PlaceholderAPI
 }
 
 dependencies {
     // Dependencies
-    compileOnly("io.papermc.paper:paper-api:1.21.7-R0.1-SNAPSHOT")
-
-    // Soft Dependencies
-
-    // Libraries
+    compileOnly("io.papermc.paper:paper-api:1.21.11-R0.1-SNAPSHOT")
+    compileOnly("me.clip:placeholderapi:2.12.2")
 }
 
 java {
